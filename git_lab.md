@@ -55,3 +55,26 @@
    3. Add a hyperlink to [Girls Who Code website](https://girlswhocode.com/)
    4. Explore Markdown formatting syntax and add whatever is relavant to your project :D
 4. Commit the changes you made to README.md to `develop` branch using "Commit changes" section at the bottom
+
+## Create A Pull Request (PR)
+1. Does your README.md look good? If YES, you are ready to merge your code from `develop` to `master`!
+2. Go to your repo web page, click "New Pull Request"
+3. Select `master` as base branch, and `develop` as compare branch
+4. At the bottom of PR page, you will see a list of change that will be merged to `master` branch
+5. Review code changes to be merged.
+6. Give a description of code changes in this PR (e.g. Added repo owner and project information in README.md)
+7. Click "Create pull request"
+8. Click "Merge pull request"
+9. Click "Confirm merge"
+10. Go to your repo web page, the images folder and your changes to README is in `master` branch now!
+
+## Add TAs As Collaborators
+1. Since your repo is private, others cannot see your repo unless your explicitly add them as collaborators
+2. On your repo web page, click "Settings"
+3. Click "Collaborators"
+4. Type xinranduan in the textbox
+5. Click "Add collaborator"
+6. Now Julina can view your repo! Next, add Yiwen as a collaborator.
+
+## Fork `GWC_UMN_FALL_2018` Repo to Add Your Contact Info
+1. 
