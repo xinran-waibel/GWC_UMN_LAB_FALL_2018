@@ -83,3 +83,9 @@
 4. On the forked repo web page, edit the README.md to add your information under "Students" section
 5. Create a PR to merge changes to the original repo (hint: base branch is `xinranduan/GWC_UMN_FALL_2018/master` and compare branch is `<your_account_name>/GWC_UMN_FALL_2018/master`)
 6. Wait for me to merge your PR
+
+## Use Git/Github via Command Line (CLI) (Optional)
+1. Let's play with Git CLI!
+2. Download Git Bash for Windows: https://git-scm.com/download/windows
+3. Open Git Bash
+4. Follow [instructions](https://services.github.com/on-demand/github-cli/git-configuration) to get yourself familiar with Git CLI
