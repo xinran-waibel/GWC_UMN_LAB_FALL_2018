@@ -6,4 +6,4 @@
 - Julina (Xinran) Waibel: duanx138@umn.edu
 - Pinki Wong: wongx596@umn.edu
 ### Students
-- ADD YOUR NAME AND EMAIL ADDRESS HERE
+- Add your name and link to your github repo here
