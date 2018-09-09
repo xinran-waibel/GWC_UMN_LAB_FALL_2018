@@ -20,15 +20,38 @@
 7. Click "Create Repository"
 
 ## Import Your Repo to Github Desktop
-1. On your repo page (github.com/<account_name>/<repo_name>), click "Clone or Download"
+1. On your repo web page (github.com/<account_name>/<repo_name>), click "Clone or Download"
 2. Copy the web URL (e.g. https://github.com/xinranduan/GWC_UMN_FALL_2018.git)
 3. Open Github Desktop
 4. Click "File -> Clone Repository"
 5. Use the web URL from step #2 (and local path should be automatically created for you)
 6. Click "Clone"
 
-## Learn about Markdown and Commit via Github Web)
-1. On your repo page (github.com/<account_name>/<repo_name>), click "README.md"
+## Create A Development Branch
+1. (Option A) open Github Desktop, click "Branch -> New Branch", enter "develop" as the new branch name
+2. (Option B) go to your repo web page, click "Branch: master", enter "develop" in the textbox, click "Create branch: develop"
+3. **Best practice: you should use `develop` branch for code development and testing, and once all code on `develop` branch is well tested and ready-to-run, create a pull request (which will appear in later section) to merge code from `develop` branch to `master` branch**
+
+## Add GWC Logo and Commit via Github Desktop
+![Image of GWC](https://upload.wikimedia.org/wikipedia/commons/a/a1/GWC_logo_2016_.png)
+1. What is **commit**: a commit is a collection of changes to be made together, like a save point or a check point in video games :D
+2. Switch current branch to `develop` on Github Desktop (*if you cannot find `develop` branch, click "Fetch origin" to sync with Github server*)
+3. Create a folder called "images" under your repo's local path (where all files of your repo are stored on your local desktop/laptop)
+4. Download the GWC logo above to the images folder you just created 
+5. Go to Github Desktop, you should see the GWC logo file appears as a change
+6. Use "Summary" textbox to summarize the changes you made (e.g. Upload GWC logo imagine file)
+7. Use "Description" textbox to give more details of your changes (e.g. This logo will be used in README.md)
+8. Click "commit to develop"
+9. Now you have *saved* your change as a commit **locally**, and nobody else can see this change yet until you *sync* with Github server.
+10. Click "Pull origin" to sync with Github server
+11. Now your change is global! Check your repo web page to find the GWC logo imagine file under images folder!
+
+## Learn about Markdown and Commit via Github Web
+1. On your repo page (github.com/<account_name>/<repo_name>), switch to `develop` branch, click "README.md"
 2. Click the pencil icon to edit README.md (a Markdown file)
-3. Refer to [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) to add following sections to your README.md:
-   1. TODO
+3. Refer to [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) to add following items to your README.md:
+   1. Add GWC logo under the main title
+   2. Add your name in bold (e.g. Repository Owner: **Xinran Waibel**)
+   3. Add a hyperlink to [Girls Who Code website](https://girlswhocode.com/)
+   4. Explore Markdown formatting syntax and add whatever is relavant to your project :D
+4. Commit the changes you made to README.md to `develop` branch using "Commit changes" section at the bottom
