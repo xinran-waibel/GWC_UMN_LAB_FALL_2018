@@ -1,9 +1,9 @@
 # Girls Who Code @ UMN - Fall 2018
 
 ## Weekly Guidelines
-### Week 1
-[Lecture Slides](https://docs.google.com/presentation/d/1WsV30CtiUnIwdvt3FyS_U0OYqYRUch91-o5LEZ4GOsQ/edit?usp=sharing)
-[Git Lab](https://github.com/xinranduan/GWC_UMN_FALL_2018/blob/master/git_lab.md)
+### Week One
+- [Lecture Slides](https://docs.google.com/presentation/d/1WsV30CtiUnIwdvt3FyS_U0OYqYRUch91-o5LEZ4GOsQ/edit?usp=sharing)
+- [Git Lab](https://github.com/xinranduan/GWC_UMN_FALL_2018/blob/master/git_lab.md)
 
 ## Contacts
 ### TAs and Facilitator
