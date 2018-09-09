@@ -8,9 +8,13 @@
 - [Learning Interests Survey](https://goo.gl/forms/APtFh8dc4QklB0ky1): please complete the survey by **Friday, Sept 14**
 
 ## Contacts
-### Instructors and Facilitator
+### Instructors
 - Yiwen Wan: wanxx149@umn.edu
 - Julina (Xinran) Waibel: duanx138@umn.edu
+### Facilitator
+
+Please reach out to Pinki if you have general questions
+
 - Pinki Wong: wongx596@umn.edu
 ### Students
 - Add your name and link to your github repo here
