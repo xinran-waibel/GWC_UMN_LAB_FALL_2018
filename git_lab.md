@@ -21,7 +21,7 @@
 
 ## Import Your Repo to Github Desktop
 1. On your repo web page (github.com/<account_name>/<repo_name>), click "Clone or Download"
-2. Copy the web URL (e.g. https://github.com/xinranduan/GWC_UMN_FALL_2018.git)
+2. Copy the web URL
 3. Open Github Desktop
 4. Click "File -> Clone Repository"
 5. Use the web URL from step #2 (and local path should be automatically created for you)
@@ -77,4 +77,9 @@
 6. Now Julina can view your repo! Next, add Yiwen as a collaborator.
 
 ## Fork `GWC_UMN_FALL_2018` Repo to Add Your Contact Info
-1. 
+1. What is **fork**: fork allows you to create a clone of someone else's Github repo. Since the forked repo still links back to the original repo, you can create PRs later to merge changes on the forked repo to the original repo.
+2. Go to https://github.com/xinranduan/GWC_UMN_FALL_2018
+3. Click "Fork"
+4. On the forked repo web page, edit the README.md to add your information under "Students" section
+5. Create a PR to merge changes to the original repo (hint: base branch is `xinranduan/GWC_UMN_FALL_2018/master` and compare branch is `<your_account_name>/GWC_UMN_FALL_2018/master`)
+6. Wait for me to merge your PR
