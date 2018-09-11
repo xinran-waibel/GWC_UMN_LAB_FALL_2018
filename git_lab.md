@@ -10,11 +10,11 @@
 1. Download Github desktop: https://desktop.github.com/
 2. Once installation completes, sign in with your new account
 
-## Create A Github Repository (aka repo) for your final project
+## Create A Github Repository (aka repo)
 1. Go to https://github.com/
 2. Sign in with your account
 3. Click "New Repository"
-4. Use a informational repository name and description
+4. Use a informational repository name and description (e.g gwc_git_lab_repo)
 5. Choose "Private"
 6. Check "Initialize this repository with a README"
 7. Click "Create Repository"
@@ -53,7 +53,7 @@
    1. Add GWC logo under the main title
    2. Add your name in bold (e.g. Repository Owner: **Xinran Waibel**)
    3. Add a hyperlink to [Girls Who Code website](https://girlswhocode.com/)
-   4. Explore Markdown formatting syntax and add whatever is relavant to your project :D
+   4. Explore as many Markdown formatting syntax options as you want :D
 4. Commit the changes you made to README.md to `develop` branch using "Commit changes" section at the bottom
 
 ## Create A Pull Request (PR)
@@ -74,7 +74,7 @@
 3. Click "Collaborators"
 4. Type xinranduan in the textbox
 5. Click "Add collaborator"
-6. Now Julina can view your repo! Next, add Yiwen as a collaborator.
+6. Now Julina can view your repo!
 
 ## Fork `GWC_UMN_FALL_2018` Repo to Add Your Contact Info
 1. What is **fork**: fork allows you to create a clone of someone else's Github repo. Since the forked repo still links back to the original repo, you can create PRs later to merge changes on the forked repo to the original repo.
