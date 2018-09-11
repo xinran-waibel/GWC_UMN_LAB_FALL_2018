@@ -17,4 +17,4 @@ Please reach out to Pinki if you have general questions
 
 - Pinki Wong: wongx596@umn.edu
 ### Students
-- Add your name and link to your github repo here
+- Add your name and your email address here
