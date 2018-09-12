@@ -5,7 +5,7 @@
 - [Lecture Slides](https://docs.google.com/presentation/d/1WsV30CtiUnIwdvt3FyS_U0OYqYRUch91-o5LEZ4GOsQ/edit?usp=sharing)
 - [Git Lab](https://github.com/xinranduan/GWC_UMN_FALL_2018/blob/master/git_lab.md)
 ### Tasks:
-- [Learning Interests Survey](https://goo.gl/forms/APtFh8dc4QklB0ky1): please complete the survey by **Friday, Sept 14**
+- [Learning Interests Survey](https://docs.google.com/forms/d/e/1FAIpQLSfscdJPSg_2PneNVuTP1t0_ydz5slAz-KdTYuaJgvkIYFjLZw/viewform?usp=sf_link): please complete the survey by **Friday, Sept 14**
 
 ## Contacts
 ### Instructors
