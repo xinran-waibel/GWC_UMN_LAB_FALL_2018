@@ -1,4 +1,4 @@
-# Girls Who Code @ UMN - Fall 2018
+ # Girls Who Code @ UMN - Fall 2018
 
 ## Week 1
 ### Resources:
@@ -24,3 +24,6 @@ Please reach out to Pinki if you have general questions
 - Pinki Wong: wongx596@umn.edu
 ### Students
 - Add your name and your email address here
+
+
+* Nalani Vang: nalanivang05@gmail.com
