@@ -26,4 +26,4 @@ Please reach out to Pinki if you have general questions
 - Add your name and your email address here
 
 
-* Nalani Vang, nalanivang05@gmail.com
+* Nalani Vang: nalanivang05@gmail.com
