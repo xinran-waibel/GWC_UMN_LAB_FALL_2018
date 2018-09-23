@@ -12,6 +12,11 @@
 - [Lecture Slides](https://docs.google.com/presentation/d/1Hh75_mKp4Rl2nyPKg95n-sLfn2Oe9LeKlzhJDSL7JVQ/edit?usp=sharing)
 - [Git Lab](https://github.com/xinranduan/GWC_UMN_FALL_2018/blob/master/git_lab.md)
 
+## Week 3
+### Resources:
+- [Lecture Slides](https://docs.google.com/presentation/d/1FFoSTK-Pm1oYfcCfGl8HQN0jrpND2pXNfl2Vu75AGv8/edit?usp=sharing)
+- [Python Chatbot Lab](https://github.com/xinranduan/GWC_UMN_FALL_2018/blob/master/python_chatbot_lab)
+
 ## Contacts
 ### Instructors
 - Yiwen Wan: wanxx149@umn.edu
