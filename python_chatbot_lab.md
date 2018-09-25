@@ -4,9 +4,7 @@
 ## Introduction
 Hello there! Welcome to the Python Chatbot Lab! In this lab, you will start by learning/reviewing Python basics. Then you will build a working chatbot in Python that you can interact with via Command Line Interface (CLI)! In each section, there will be **Examples** and **Tasks**:
 - Example: instructions and source code for you to learn and try yourself
-- Task: coding problems similar to its corresponding Example for your to solve 
-
-**Please feel free to ask any questions! We are always here to help! The more questions you ask, you more you will get out of this coding camp!**
+- Task: coding problems similar to its corresponding Example for your to solve
 
 ### Q&A: What is Command Line Interface
 A command-line interface (CLI) is a way of interacting with a computer program where the user (YOU) gives commands to the program in the form of successive lines of text (aka command lines).
@@ -23,21 +21,24 @@ A command-line interface (CLI) is a way of interacting with a computer program w
 ### Q&A: What is IDLE
 IDLE is an powerful development environment for Python that includes both Python CLI and Python file (.py) editor, which we will learn and use in this lab. Please note that you can still write Python code and issue Python commands without IDLE, as long as Python is installed.
 
-## Python Basic
-**[Example 1]** Let's first write a Python statement to output/display Hello World using `print()` function:
+## Python Basics
+### [Example 1]
+Let's first write a Python statement to output/display Hello World using `print()` function:
 ```python
 print('Hello World')
 ```
 
 Copy and paste the statement above to your CLI and press `Enter` button to issue the command.
-**[Task 1]** Write a line of Python code to display your favorite quote using `print()` function
+### [Task 1]
+Write a line of Python code to display your favorite quote using `print()` function
 #### Q&A: What does `print()` do?
 `print()` function prints the specified message to the screen
 
 #### Q&A: What is a function?
 A function is a block of code which is used to utilize code in more than one place and only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result. `print()` is a build-in function in Python, which means its code is written by Python's developers for our convince. As Python users, we can create our own functions too using `def`.
 
-**[Example 2]** Let's try display variables. I want to display a introduction of myself in two lines on the screen:
+### [Example 2]
+Let's try display variables. I want to display a introduction of myself in two lines on the screen:
 ··· My name is Xinran
 ··· Xinran is pronounced as SHEEN-ran
 
@@ -51,13 +52,15 @@ print(my_name, 'is pronounced as', my_name_pron)
 #### Q&A: What is a variable?
 A variable is an object in Python that has a name and a value, and we can refer to a variable by its name. For example, in the code above, my_name is a variable whose name is `my_name` and has value `'Xinran'` assigned to it.
 
-**[Task 2]** Print a short introduction of yourself in following format using variables, for example:
+### [Task 2]
+Print a short introduction of yourself in following format using variables, for example:
 - My favorite color is xxx
 - The opposite color of xxx is yyy
 
 (Please store xxx and yyy as variables and then use `print` to display your introduction lines.)
 
-**[Example 3]** Instead of using commands/statements line by line using Python CLI, let's put multiple commands together in a Python file to be more efficient:
+### [Example 3] 
+Instead of using commands/statements line by line using Python CLI, let's put multiple commands together in a Python file to be more efficient:
 * In CLI, click `File` -> `New File`
 * Now you should be in a Python editor window that shows an empty Python file
 
@@ -77,5 +80,87 @@ In the code above:
 
 Copy and paste the code to your Python editor and save your Python file. Click `Run` -> `Run Module` to run/execute the Python file and you will see the output in the pop-up Python CLI. So, what will my lunch be?
 
-**[Task 3]** Suppose we have only one pizza slice left in the pizza box, but all TAs are still hungry so they all want want it! Please write a Python program to help us decide who will get the last slice of pizza.
+### [Task 3]
+Suppose we have only one pizza slice left in the pizza box, but all TAs are still hungry so they all want want it! Please write a Python program to help us decide who will get the last slice of pizza.
 
+### [Example 4]
+Here is a Python program to help me find out all natural numbers smaller than 20 that are multiples of 3, 7:
+```python
+number = 1
+while (number < 20):
+    if (number % 3 == 0):
+        print (str(number), 'is a multiple of 3')
+    elif (number % 7 == 0):
+        print (str(number), 'is a multiple of 7')
+    number += 1
+```
+
+In the code above:
+* By using `while(condition)`, all the statments in the `while` block will be executed repeatedly as long as `condition` is evaluated to `True`
+* `number += 1` is equalvalent to `number = number + 1`, which increments the value of variable `number` by one
+
+### [Task 4]
+Write a Python program to compute the sum of all even numbers smaller than 11
+
+## Build a Chatbot
+A chatbot gives different responses (output of chatbot) depending on what messages it received (input of chatbot). For example, if the input is some form of greetings, the output should be a greeting too. If the input is some kind of small talks (like 'How are you?'), the output can be 'OK', 'Good' or whatever is appropriate.
+
+### Example
+Let's create a list of potential greetings, so that if the input is any of the greetings in the list, the output will be a random greeting from the list:
+```python
+greetings = ['howdy', 'hello', 'hi', 'hey']
+```
+
+Smiliarly, create a list of small talk questions and potential responses:
+```python
+small_talks = ['how are you', 'how is your day']
+small_talk_answers = ['not bad', 'I am fine', 'not so great']
+```
+
+We use `input()` to ask for user input and store the user input in a variable called `user_input` to be used later. When we pass '>> ' as prompt argument to `input()`, '>> ' will display in front of user input area.
+```python
+user_input = input('>> ')
+```
+
+Chatbot should be able to keep talking to the user, so we use `while` to keep asking for user input. Everytime the user says something to the chatbot, the chatbot will check if `user_input` is one of the expected questions/greetings and then respond stored answers:
+```python
+while (True):
+    user_input = input('>> ')
+    if (user_input in greetings):
+        print(random.choice(greetings))
+    elif (user_input in small_talks):
+        print(random.choice(small_talk_answers))
+    else:
+        print('sorry, i do not understand what you said')
+```
+
+Now run all the code together and talk to your chatbot!
+```python
+import random
+
+greetings = ['howdy', 'hello', 'hi', 'hey']
+small_talks = ['how are you', 'how is your day']
+small_talk_answers = ['not bad', 'i am fine', 'not so great']
+
+print('hi, i am a chatbot. please talk to me.')
+
+while (True):
+    user_input = input('>> ')
+    if (user_input in greetings):
+        print(random.choice(greetings))
+    elif (user_input in small_talks):
+        print(random.choice(small_talk_answers))
+    else:
+        print('sorry, i do not understand what you said')
+```
+
+Since the chatbot will prompt for input forever, you can use Ctrl + C to end the chatbot program.
+
+### Task
+1. Expand your chatbot's knowledge bank by adding more potential questions and answers:
+  1. Favorite
+  2. Today's date
+    - helpful info: [datetime](https://www.saltycrane.com/blog/2008/06/how-to-get-current-date-and-time-in/)
+2. The chatbot program has one problem: it cannot recognize 'Hi' even if 'hi' is in list `greetings`. Can you fix it?
+  - helpful info: [lower](https://www.tutorialspoint.com/python/string_lower.htm)
+3. Edit your code so that your chatbot program will stop when the user says 'goodbye' or 'bye'. In other words, when the input is means 'bye', stop the execution of `while` block. (Hint: set `condition` in `while(condition)` to `False`)
