@@ -103,64 +103,18 @@ In the code above:
 Write a Python program to compute the sum of all even numbers smaller than 11
 
 ## Build a Chatbot
-A chatbot gives different responses (output of chatbot) depending on what messages it received (input of chatbot). For example, if the input is some form of greetings, the output should be a greeting too. If the input is some kind of small talks (like 'How are you?'), the output can be 'OK', 'Good' or whatever is appropriate.
 
-### Example
-Let's create a list of potential greetings, so that if the input is any of the greetings in the list, the output will be a random greeting from the list:
-```python
-greetings = ['howdy', 'hello', 'hi', 'hey']
-```
+### Basic functionalities of a chatbot:
+A chatbot gives different responses (output of chatbot) depending on what messages it received (input of chatbot). For example, if the input is some form of greetings, the output should be a greeting too. If the input is some kind of small talks (like 'How are you?'), the output can be 'OK', 'Good' or whatever is appropriate. Chatbot should be able to keep talking to the user, in other words keep asking for user input.
 
-Smiliarly, create a list of small talk questions and potential responses:
-```python
-small_talks = ['how are you', 'how is your day']
-small_talk_answers = ['not bad', 'I am fine', 'not so great']
-```
+Also consider following cases:
+- What if the chatbot does not 'understand' the user input?
+- When should chatbot stop talking?
 
-We use `input()` to ask for user input and store the user input in a variable called `user_input` to be used later. When we pass '>> ' as prompt argument to `input()`, '>> ' will display in front of user input area.
+**Hint**
+- Chatbot should have a 'knowledge bank'
+- Think about what you have learned in `Python Baics` section
+- You can use `input()` to ask for user input and store the user input in a variable called `user_input` to be used later. When we pass '>> ' as prompt argument to `input()`, '>> ' will display in front of user input area.
 ```python
 user_input = input('>> ')
 ```
-
-Chatbot should be able to keep talking to the user, so we use `while` to keep asking for user input. Everytime the user says something to the chatbot, the chatbot will check if `user_input` is one of the expected questions/greetings and then respond stored answers:
-```python
-while (True):
-    user_input = input('>> ')
-    if (user_input in greetings):
-        print(random.choice(greetings))
-    elif (user_input in small_talks):
-        print(random.choice(small_talk_answers))
-    else:
-        print('sorry, i do not understand what you said')
-```
-
-Now run all the code together and talk to your chatbot!
-```python
-import random
-
-greetings = ['howdy', 'hello', 'hi', 'hey']
-small_talks = ['how are you', 'how is your day']
-small_talk_answers = ['not bad', 'i am fine', 'not so great']
-
-print('hi, i am a chatbot. please talk to me.')
-
-while (True):
-    user_input = input('>> ')
-    if (user_input in greetings):
-        print(random.choice(greetings))
-    elif (user_input in small_talks):
-        print(random.choice(small_talk_answers))
-    else:
-        print('sorry, i do not understand what you said')
-```
-
-Since the chatbot will prompt for input forever, you can use Ctrl + C to end the chatbot program.
-
-### Task
-1. Expand your chatbot's knowledge bank by adding more potential questions and answers:
-  1. Favorite
-  2. Today's date
-    - helpful info: [datetime](https://www.saltycrane.com/blog/2008/06/how-to-get-current-date-and-time-in/)
-2. The chatbot program has one problem: it cannot recognize 'Hi' even if 'hi' is in list `greetings`. Can you fix it?
-  - helpful info: [lower](https://www.tutorialspoint.com/python/string_lower.htm)
-3. Edit your code so that your chatbot program will stop when the user says 'goodbye' or 'bye'. In other words, when the input is means 'bye', stop the execution of `while` block. (Hint: set `condition` in `while(condition)` to `False`)
