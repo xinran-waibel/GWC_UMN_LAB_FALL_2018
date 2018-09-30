@@ -17,6 +17,11 @@
 - [Lecture Slides](https://docs.google.com/presentation/d/1FFoSTK-Pm1oYfcCfGl8HQN0jrpND2pXNfl2Vu75AGv8/edit?usp=sharing)
 - [Python Chatbot Lab](https://github.com/xinranduan/GWC_UMN_FALL_2018/blob/master/python_chatbot_lab.md)
 
+## Week 4
+### Resources:
+- [Lecture Slides](https://docs.google.com/presentation/d/1Ee4CvIu-mWnKWpKfwkOtat55JBlGMj-YD3OCLtn3hao/edit?usp=sharing)
+- [Chatbot UI Lab](https://sites.google.com/umn.edu/umngwcilw4/home?authuser=2)
+
 ## Contacts
 ### Instructors
 - Yiwen Wan: wanxx149@umn.edu
